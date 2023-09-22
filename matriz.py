@@ -1,6 +1,6 @@
-# Principios-Generales-y-SOLID
 
-Ejercicio práctico1 (3Puntos): Creación de una clase en Python que representa una matriz.
+
+'''Ejercicio práctico1 (3Puntos): Creación de una clase en Python que representa una matriz.
 Para este ejercicio, deberás crear una clase que representa una matriz. Las operaciones que esta clase debe permitir son la creación de una matriz a partir de una lista de listas, la impresión de la matriz en una forma legible, y el cálculo de la transpuesta de la matriz. Asegúrate de que cada método tenga una única responsabilidad.
 
 
@@ -117,4 +117,5 @@ Reutilización de Código y Principios de Diseño de Software (25 puntos)
 No se crea una nueva instancia de una dependencia para cada clase que la necesita (5 puntos)
 El código está organizado y es fácil de leer (10 puntos)
 Se siguen buenas prácticas de codificación y principios de diseño de software (10 puntos)
-Cada criterio será calificado con el puntaje mencionado, y la puntuación total se calculará sumando los puntajes de todos los criterios. Una solución perfecta, que satisface todos los criterios al máximo, recibirá 100 puntos.
+Cada criterio será calificado con el puntaje mencionado, y la puntuación total se calculará sumando los puntajes de todos los criterios. Una solución perfecta, que satisface todos los criterios al máximo, recibirá 100 puntos.'''
+
