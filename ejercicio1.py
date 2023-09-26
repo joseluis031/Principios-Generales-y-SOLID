@@ -3,9 +3,7 @@ class Matriz():
     def __init__(self, elementos: list):
         self.elementos = elementos
        
-    def imprimir(self):
-        for i in self.elementos:
-            print(i)
+
              
 class Traspuesta(Matriz):
     def __init__(self, elementos: list): #no hace falta list
