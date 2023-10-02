@@ -1,3 +1,5 @@
+#ejercicio que fui haciendo a la vez que Germi
+
 #clase matriz
 class Matriz():
     def __init__(self, elementos: list):
@@ -61,6 +63,7 @@ class Otrolanzador(Imprimir, Traspuesta):
     def lanzar(self):
         mat = Imprimir(self.elementos)
         mat.imprimir()
+        print("La traspuesta es:")
         mat2 = Traspuesta(self.elementos)
         print(mat2.traspuesta())
         
@@ -71,6 +74,3 @@ class Main2():
 
 if __name__ == "__main__":
     Main2()
-        
-
-          
