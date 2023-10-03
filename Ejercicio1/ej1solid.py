@@ -1,13 +1,13 @@
-class Matriz:
+class Matriz: 
     def __init__(self, elementos: list):
-        self.elementos = elementos
+        self.elementos = elementos 
 
-class Transpuesta:
+class Transpuesta: 
     def __init__(self, matriz: Matriz):
         self.matriz = matriz
     
     def calcular_transpuesta(self):
-        return Matriz([[fila[i] for fila in self.matriz.elementos] for i in range(len(self.matriz.elementos[0]))])
+        return Matriz([[fila[i] for fila in self.matriz.elementos] for i in range(len(self.matriz.elementos[0]))])#esto es una lista de listas
 
 class Imprimir:
     def __init__(self, matriz: Matriz):
